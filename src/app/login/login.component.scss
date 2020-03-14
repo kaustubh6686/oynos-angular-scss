@@ -1,0 +1,43 @@
+.loginContainer{
+    background: linear-gradient(to bottom, #c32e1a 7%, #cc7317 63%,#d28721 73%);
+    height: 70%;
+    form {
+        max-width: 600px;
+
+        input {
+            border-radius: 2px;
+        }
+    }
+}
+.brandingContainer{
+    height: 30%;
+    background-color: white;
+    img {
+        max-width: 100%;
+    }
+    .dragon {
+        width: 40%;
+        top: -100px;
+        right: 2%;
+    }
+    .qynos {
+        max-width: 293px;
+        width: 60%;
+    }
+}
+
+
+@media (min-width: 992px) { 
+    .loginContainer, .brandingContainer {
+        height: 100%;
+    }
+    .brandingContainer{
+        .dragon {
+            width: 60%;
+            left: -20%;
+            bottom: 100px;
+            right: auto;
+            top: auto;
+        }
+    }
+}
