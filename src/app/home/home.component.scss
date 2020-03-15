@@ -5,11 +5,15 @@
     flex-direction: column;
 }
 
+.row {
+    background-color: purple;
+}
+
 #contentContainer {
     flex-grow: 1;
     display: flex;
     width: 100%;
-    margin: 0 2%;
+    padding: 0 2%;
 }
 #mainContent {
     // background-color: green;
