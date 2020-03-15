@@ -9,6 +9,7 @@ import { NavComponent } from './nav/nav.component';
 import { HeaderComponent } from './header/header.component';
 import { CarousalComponent } from './carousal/carousal.component';
 import { GiveAplozComponent } from './give-aploz/give-aploz.component';
+import { LeadingHouseCardComponent } from './leading-house-card/leading-house-card.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { GiveAplozComponent } from './give-aploz/give-aploz.component';
     HeaderComponent,
     CarousalComponent,
     GiveAplozComponent,
+    LeadingHouseCardComponent,
   ],
   imports: [
     BrowserModule,
