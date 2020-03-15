@@ -1,6 +1,17 @@
 :host {
-    background-color: brown;
-    height: 100px;
+    height: 70px;
     display: block;
     width: 100%;
+}   
+.nav-link{
+    padding: 0;
+}
+.chatIcon{
+    display:none;
+}
+
+@media (min-width: 992px) { 
+    .chatIcon{
+        display:block;
+    }
 }
