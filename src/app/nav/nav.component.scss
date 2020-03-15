@@ -2,21 +2,34 @@
     display: flex;
     position: fixed;
     width: 100%;
-    height: 100px;
     left: 0;
     bottom: 0;
-}
-.flexContainer {
-    width: 100%;
-}
-.flexItem{
-    border: 1px solid black;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    width: 20%;
-    justify-content: center;
-    align-items: center;
+    // background-color: powderblue;
+    padding: 20px 0 10px;
+    ul {
+        list-style: none;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        li {
+            display: flex;
+            flex-direction: column;
+            width: 20%;
+            justify-content: center;
+            align-items: center;
+            img {
+                width: 40px;
+                display: inline-block;
+                margin: 0 15px;
+            }
+            span {
+                margin-top: 5px;
+            }
+        }
+    }
 }
 
 @media (min-width: 992px) { 
@@ -24,18 +37,31 @@
         position: static;
         width: 250px;
         height: 100vh;
-    }
-    .flexContainer{
-        flex-direction: column;
-        .flexItem {
-            flex-direction: row;
-            justify-content: flex-start;
-            width: 100%;
-            padding: 20px 0;
-        }
-        .active{
-            border:none;
-            border-left: 6px solid orangered;
+        padding: 0;
+        ul {
+            flex-direction: column;
+            li {
+                border: 1px solid black;
+                flex-direction: row;
+                justify-content: flex-start;
+                width: 100%;
+                padding: 20px 0;
+                border-collapse: collapse;
+                &:not(:last-child) {
+                    border-bottom: none;
+                }
+                img {
+
+                }
+                span {
+                    margin-top: 0;
+                }
+                &.active {
+                    border-top: 1px solid black;
+                    border-right: none;
+                    border-left: 6px solid orangered;
+                }
+            }
         }
     }
 }
