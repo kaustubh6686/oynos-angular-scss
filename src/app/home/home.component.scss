@@ -6,14 +6,19 @@
 }
 
 #contentContainer {
-    background-color: pink;
     flex-grow: 1;
     display: flex;
     width: 100%;
 }
-
 #mainContent {
+    // background-color: green;
+    display: flex;
     flex-grow: 1;
-    background-color: blueviolet;
+    flex-direction: column;
 }
 
+@media (min-width: 992px) { 
+    #mainContent{
+        flex-direction: row;
+    }
+}

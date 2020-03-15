@@ -7,6 +7,8 @@ import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { NavComponent } from './nav/nav.component';
 import { HeaderComponent } from './header/header.component';
+import { CarousalComponent } from './carousal/carousal.component';
+import { GiveAplozComponent } from './give-aploz/give-aploz.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +17,8 @@ import { HeaderComponent } from './header/header.component';
     HomeComponent,
     NavComponent,
     HeaderComponent,
+    CarousalComponent,
+    GiveAplozComponent,
   ],
   imports: [
     BrowserModule,
