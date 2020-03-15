@@ -11,6 +11,7 @@ import { CarousalComponent } from './carousal/carousal.component';
 import { GiveAplozComponent } from './give-aploz/give-aploz.component';
 import { LeadingHouseCardComponent } from './leading-house-card/leading-house-card.component';
 import { MyScoreComponentComponent } from './my-score-component/my-score-component.component';
+import { ClassCardComponent } from './class-card/class-card.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { MyScoreComponentComponent } from './my-score-component/my-score-compone
     GiveAplozComponent,
     LeadingHouseCardComponent,
     MyScoreComponentComponent,
+    ClassCardComponent,
   ],
   imports: [
     BrowserModule,
