@@ -1,9 +1,8 @@
 :host{
     display: flex;
-    height: 45vh;
-    width:50% ;
+    width: 100%;
     border: 1px solid black;
-    padding:10px;
+    overflow: hidden;
 }
 .lower{
     background: linear-gradient(to right, rgba(247, 134, 68, 0.863), rgb(231, 76, 29));
