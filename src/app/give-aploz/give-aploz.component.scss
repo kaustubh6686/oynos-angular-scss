@@ -1,11 +1,51 @@
+@import "~src/variables.scss";
+
 :host{
     display: flex;
     width: 100%;
-    border: 1px solid black;
+    border: 1px solid rgba(0,0,0,0.3);
+    padding: 10px 15px;
     overflow: hidden;
-}
-.lower{
-    background: linear-gradient(to right, rgba(247, 134, 68, 0.863), rgb(231, 76, 29));
-    color: white;
-    padding:10px;
+    .badge {
+        display: inline-block;
+        color: #fff;
+        border-radius: 1em;
+        padding: 0.5em 1em;
+        &:nth-child(1) {
+            background-color: $ac1;
+
+        }
+        &:nth-child(2) {
+            background-color: #161616;
+        }
+    }
+    .user-icon {
+        width: 60px;
+        height: 60px;
+        background-size: cover;
+        background-position: center;
+        border-radius: 50%;
+        box-shadow: 0 0 0 1px $ac1, inset 0 0 0 3px #fff;
+    }
+    .options {
+        span {
+            display: inline-block;
+            cursor: pointer;
+            &:nth-child(1) {
+                box-shadow: 0 0 0 1px $ac1;
+                border-radius: 1em;
+                padding: 0.2em 1em;
+                margin: 0 0.3em;
+            }
+            &:nth-child(2) {
+                color: blue;
+            }
+        }
+    }
+    .bottom {
+        background: linear-gradient(to right, rgba(247, 134, 68, 0.863), rgb(231, 76, 29));
+        color: white;
+        padding: 10px;
+        margin: 10px -15px -10px;
+    }
 }
