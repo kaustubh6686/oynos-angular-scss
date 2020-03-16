@@ -1,4 +1,17 @@
+@import "~src/variables.scss";
+
+$bg: #f9e4e4;
+
+
 :host{
-    background-color: #f9e4e4;
+    background-color: $bg;
     width: 100%;
+    .badge {
+        background-color: $ac1;
+        color: #fff;
+        padding: 0.4em 1em;
+        font-size: 1.2em;
+        border-radius: 1em;
+        margin-bottom: 10px;
+    }
 }
