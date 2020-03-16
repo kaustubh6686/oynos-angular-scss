@@ -11,6 +11,6 @@ set ftp:ssl-allow no
 open $HOST
 user $USER $PASS
 lcd $SOURCEFOLDER
-mirror --reverse --delete --verbose $SOURCEFOLDER $TARGETFOLDER
+mirror --reverse --exclude-glob-from=/home/kaustubh/Desktop/PROJECTS/oynos-scss/upload-excludes.txt --delete --verbose $SOURCEFOLDER $TARGETFOLDER
 bye
 "
