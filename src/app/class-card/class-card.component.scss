@@ -3,46 +3,57 @@ $bg: #f9e4e4;
     background-color: $bg;
     width: 100%;
     display: block;
+    .title {
+        color: rgba(0,0,0,0.7);
+    }
     .images {
         position: relative;
         top: -10px;
         > div {
             display: inline-block;
-            width: 50px;
-            height: 50px;
+            background-size: cover;
+            background-position: center;
+            width: 90px;
+            height: 90px;
             border-radius: 50%;
-            box-shadow: 0 0 0 2px red;
+            box-shadow: 0 0 0 1px #F07524, inset 0 0 0 3px $bg;
             img {
                 border-radius: 50%;
                 width: 100%;
             }
             span {
-                background-color: red;
-                display: block;
+                background-color: #F07524;
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 position: absolute;
-                left: -1em;
-                top: -0.8em;
-                padding: 0.1em 1em;
-                border-radius: 1em;
+                width: 2.6em;
+                height: 1.6em;
+                color: #fff;
+                left: -0.6em;
+                top: 0em;
+                border-radius: 0.7em;
                 font-size: 0.8em;
+                box-shadow: 0 0 0 2px $bg
             }
             &:nth-of-type(1) {
-                transform: scale(1);
                 position: relative;
             }
             &:nth-of-type(2) {
-                transform: scale(0.9);
+                width: 70px;
+                height: 70px;
                 position: absolute;
-                left: -37px;
-                bottom: -10px;
+                left: -52px;
+                bottom: -4px;
             }
             &:nth-of-type(3) {
-                transform: scale(0.7);
+                width: 50px;
+                height: 50px;
                 position: absolute;
-                right: -30px;
-                bottom: -20px;
+                right: -29px;
+                bottom: -8px;
                 span {
-                    right: -1em;
+                    right: -1.6em;
                     left: auto;
                 }
             
