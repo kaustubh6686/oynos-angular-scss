@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "upload": "sh upload.sh"
+    "upload": "ng build --prod && sh upload.sh"
   },
   "private": true,
   "dependencies": {
