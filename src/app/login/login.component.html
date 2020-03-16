@@ -3,7 +3,7 @@
 
 		<div class="col-12 col-sm-12 col-lg-8 loginContainer d-flex justify-content-center flex-column align-items-center">
             <h2 class="loginTitle text-center mb-3">Login to your Qynos account</h2>
-            <form class="w-100">
+            <form class="w-100" method="post" action="">
                 <div class="input-group input-group-lg">
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Phone number or email address" required/>
                 </div>
@@ -14,7 +14,7 @@
                     <span class="forgotText align-self-end">
                         Forgot Password ?
                     </span>
-                    <button type="submit" class="btn btn-light btn-lg">LOG IN</button>
+                    <button type="submit" class="btn btn-light btn-lg" (click)="router.navigate(['/home']);">LOG IN</button>
                 </div>
             </form>
 		</div>
