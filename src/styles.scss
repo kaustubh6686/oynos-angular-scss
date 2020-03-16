@@ -12,11 +12,23 @@ body {
 
 .card {
     padding: 10px 10px 30px;
-    height: 100%;
+    min-height: 100%;
     display: flex;
     flex-direction: column;
+    min-width: 250px;
+    width: 100%;
     .title {
         color: rgba(0,0,0,0.7);
         margin-bottom: 20px;
     }
 }
+
+// .container-fluid {
+//     background-color: chartreuse;
+//     .row {
+//         background-color: darkcyan;
+//         div[class^=col] {
+//             background-color: darkgoldenrod;
+//         }
+//     }
+// }

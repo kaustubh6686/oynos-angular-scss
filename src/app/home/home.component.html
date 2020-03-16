@@ -4,37 +4,37 @@
     <div id="mainContent">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12 col-sm-12 col-md-8">
-                    <app-carousal></app-carousal>
-                </div>
-                <div class="col-12 col-sm-12 col-md-4">
-                    <app-give-aploz></app-give-aploz>
-
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-sm-12 col-md-8">
-                    <div class="row">
-                        <div class="col-12 col-sm-12 col-md-4">
-                            <app-class-card class="card"></app-class-card>
-        
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-4">
-                            <app-leading-house-card class="card"></app-leading-house-card>
-        
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-4">
-                            <app-my-score-component class="card"></app-my-score-component>
-        
-                        </div>
+                <div class="col-12 col-lg-8">
+                    <app-carousel class="w-100 d-none d-lg-block"></app-carousel>
+                    <div class="d-flex overflow-auto mt-3">
+                        <app-class-card class="card mr-3"></app-class-card>
+                        <app-leading-house-card class="card mr-3"></app-leading-house-card>
+                        <app-my-score-component class="card"></app-my-score-component>
 
                     </div>
-
                 </div>
-                <div class="col-12 col-sm-12 col-md-4">
+                <div class="col-12 col-lg-4 mt-3 mt-lg-0">
+                    <app-give-aploz></app-give-aploz>
+                </div>
+            </div>
 
+            <div class="row mt-3">
+                <div class="col-12 col-lg-8">
+                    <app-story-list></app-story-list>
+                </div>
+                <div class="col-12 col-lg-4">
+                    
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+
+<!-- <app-carousel class="w-100 d-none d-lg-block"></app-carousel> -->
+
+<!-- <app-class-card class="card mr-3"></app-class-card>
+<app-leading-house-card class="card mr-3"></app-leading-house-card>
+<app-my-score-component class="card"></app-my-score-component> -->
+
+<!-- <app-give-aploz></app-give-aploz> -->
