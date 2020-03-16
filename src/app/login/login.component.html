@@ -1,29 +1,23 @@
-<div class="container-fluid min-vh-100 overflow-hidden">
-	<div class="row clearfix min-vh-100">
+    <div class="loginContainer d-flex justify-content-center flex-column align-items-center flex-grow-1">
+        <h2 class="loginTitle text-center mb-3">Login to your Qynos account</h2>
+        <form class="w-100" method="post" action="">
+            <div class="input-group input-group-lg">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Phone number or email address" required/>
+            </div>
+            <div class="input-group input-group-lg mt-3">
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required/>
+            </div>
+            <div class="d-flex justify-content-between mt-3">
+                <span class="forgotText align-self-end">
+                    Forgot Password ?
+                </span>
+                <button type="submit" class="btn btn-light btn-lg" (click)="login($event)">LOG IN</button>
+            </div>
+        </form>
+    </div>
 
-		<div class="col-12 col-sm-12 col-lg-8 loginContainer d-flex justify-content-center flex-column align-items-center">
-            <h2 class="loginTitle text-center mb-3">Login to your Qynos account</h2>
-            <form class="w-100" method="post" action="">
-                <div class="input-group input-group-lg">
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Phone number or email address" required/>
-                </div>
-                <div class="input-group input-group-lg mt-3">
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required/>
-                </div>
-                <div class="d-flex justify-content-between mt-3">
-                    <span class="forgotText align-self-end">
-                        Forgot Password ?
-                    </span>
-                    <button type="submit" class="btn btn-light btn-lg" (click)="login($event)">LOG IN</button>
-                </div>
-            </form>
-		</div>
-
-		<div class=" col-12 col-sm-12 col-lg-4 brandingContainer d-flex flex-column justify-content-between align-items-start align-items-lg-center pt-3 pb-3">
-            <img class="dragon position-absolute" src="/assets/images/dragon.png" alt="">
-            <img src="/assets/images/qynos-logo.jpeg" alt="Qynos Logo" class="qynos">
-            <!-- <img src="/assets/images/impetus-logo.png" alt="Impetus Logo" class="impetus"> -->
-		</div>
-
-	</div>
-</div>
+    <div class="brandingContainer">
+        <img class="dragon position-absolute" src="/assets/images/dragon.png" alt="">
+        <img src="/assets/images/qynos-logo.jpeg" alt="Qynos Logo" class="qynos">
+        <!-- <img src="/assets/images/impetus-logo.png" alt="Impetus Logo" class="impetus"> -->
+    </div>
