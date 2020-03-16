@@ -7,7 +7,7 @@ import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { NavComponent } from './nav/nav.component';
 import { HeaderComponent } from './header/header.component';
-import { CarousalComponent } from './carousal/carousal.component';
+import { CarouselComponent } from './carousel/carousel.component';
 import { GiveAplozComponent } from './give-aploz/give-aploz.component';
 import { LeadingHouseCardComponent } from './leading-house-card/leading-house-card.component';
 import { MyScoreComponentComponent } from './my-score-component/my-score-component.component';
@@ -20,9 +20,9 @@ import { ClassCardComponent } from './class-card/class-card.component';
     HomeComponent,
     NavComponent,
     HeaderComponent,
-    CarousalComponent,
+    CarouselComponent,
     GiveAplozComponent,
-    LeadingHouseCardComponent,
+    LeadingHouseCardComponent, 
     MyScoreComponentComponent,
     ClassCardComponent,
   ],

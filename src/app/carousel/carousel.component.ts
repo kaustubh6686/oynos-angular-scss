@@ -2,10 +2,10 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-carousal',
-  templateUrl: './carousal.component.html',
-  styleUrls: ['./carousal.component.scss']
+  templateUrl: './carousel.component.html',
+  styleUrls: ['./carousel.component.scss']
 })
-export class CarousalComponent implements OnInit {
+export class CarouselComponent implements OnInit {
 
   constructor() { }
 
