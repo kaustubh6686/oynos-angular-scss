@@ -6,7 +6,7 @@
     flex-direction: column;
     .loginContainer{
         background: linear-gradient(to bottom, #c32e1a 7%, #cc7317 63%,#d28721 73%);
-        padding: 20px;
+        padding: 50px 20px 150px;
         h2 {
             margin-bottom: 2em;
         }
@@ -28,7 +28,7 @@
         .dragon {
             width: 40%;
             min-width: 150px;
-            max-width: 300px;
+            max-width: 250px;
             position: absolute;
             bottom: 50px;
             right: 2%;
