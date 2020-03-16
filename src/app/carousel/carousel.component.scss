@@ -1,4 +1,23 @@
 :host{
+    width: 100%;
+    display: block;
+    height: 100%;
+    background-color: blueviolet;
+    > div  {
+        height: 100%;
+    }
+    .carousel-inner {
+        height: 100%;
+        background-color: brown;
+    }
+    .carousel-item {
+        height: 100%;
+        background-color: chartreuse;
+        background-size: contain;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
 }
 
 
