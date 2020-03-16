@@ -1,18 +1,39 @@
-<ul class="nav justify-content-end navbar d-flex flex-wrap">
-    <a class="navbar-brand flex-grow-1" href="#">
-      <img src="/assets/images/qynos-logo.jpeg" width="100" height="50" alt="Oynos Brand">
-    </a>
-    <li class="nav-item">
-      <a class="nav-link active" href="#"><img src="/assets/icons/dashboard.svg" width="70" height="30" alt="Dashboard Icon"></a>
-    </li>
-    <li class="nav-item chatIcon">
-      <a class="nav-link active" href="#"><img src="/assets/icons/chat.svg" width="70" height="30" alt="Chat Icon"></a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link active" href="#"><img src="/assets/icons/notification.svg" width="70" height="30" alt="Notification Icon"></a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link active" href="/Login"><img src="/assets/images/avatar.jpg" class="avatar" alt="Avatar Icon"></a> 
-      <!-- <a class="nav-link active" href="/Login"><img src="/assets/icons/user.svg" width="70" height="30" alt="Avatar Icon"></a> -->
-    </li>
-  </ul>
+<a class="brandname" routerLink="">
+	<img src="/assets/images/qynos-logo.jpeg" alt="Oynos Brand">
+</a>
+
+<ul class="d-flex align-items-center">
+
+	<li class="">
+		<a class="" routerLink="">
+			<span>
+				<img src="/assets/icons/dashboard.svg" alt="">
+				<span>5</span>
+			</span>
+			<p>Dashboard</p>
+		</a>
+	</li>
+	<li class="d-none d-md-block">
+		<a class="" routerLink="">
+			<span>
+				<img src="/assets/icons/chat.svg" alt="">
+				<span>5</span>
+			</span>
+			<p>Messages</p>
+		</a>
+	</li>
+	<li class="">
+		<a class="" routerLink="">
+			<span>
+				<img src="/assets/icons/notification.svg" alt="">
+				<span>5</span>
+			</span>
+			<p>Notifications</p>
+		</a>
+	</li>
+	<li class="user-profile">
+		<a class="" routerLink="login" style="background-image: url('/assets/images/avatar.jpg');">
+			
+		</a>
+	</li>
+</ul>
