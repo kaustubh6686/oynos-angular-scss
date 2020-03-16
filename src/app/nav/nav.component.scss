@@ -5,6 +5,9 @@
     left: 0;
     bottom: 0;
     padding: 20px 0 10px;
+    z-index: 100;
+    background: #fff;
+    box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.3);
     ul {
         list-style: none;
         width: 100%;
@@ -39,6 +42,7 @@
         min-width: 250px;
         height: 100vh;
         padding: 0;
+        box-shadow: none;
         ul {
             flex-direction: column;
             li {
