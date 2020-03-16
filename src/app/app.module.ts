@@ -12,6 +12,8 @@ import { GiveAplozComponent } from './give-aploz/give-aploz.component';
 import { LeadingHouseCardComponent } from './leading-house-card/leading-house-card.component';
 import { MyScoreComponentComponent } from './my-score-component/my-score-component.component';
 import { ClassCardComponent } from './class-card/class-card.component';
+import { StoryListComponent } from './story/list/story-list.component';
+import { StoryListItemComponent } from './story/list-item/story-list-item.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +27,8 @@ import { ClassCardComponent } from './class-card/class-card.component';
     LeadingHouseCardComponent, 
     MyScoreComponentComponent,
     ClassCardComponent,
+    StoryListComponent,
+    StoryListItemComponent,
   ],
   imports: [
     BrowserModule,
