@@ -1,0 +1,34 @@
+@import "~src/variables.scss";
+$bg: #f9e4e4;
+:host{
+    min-width: 150px;
+    div {
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .outer {
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+        max-width: 150px;
+        height: 250px;    
+        .inner {
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            margin-bottom: 20px;
+            border-radius: 50%;
+            box-shadow: 0 0 0 1px $ac1, inset 0 0 0 3px $bg;        }
+    }
+
+}
+img{
+    width: 100%;
+    border-radius: 30px;    
+    overflow:hidden;
+    // border: 1px solid green;
+}
