@@ -1,3 +1,5 @@
+@import "~src/variables.scss";
+
 $bg: #f9e4e4;
 :host{
     background-color: $bg;
@@ -16,13 +18,13 @@ $bg: #f9e4e4;
             width: 90px;
             height: 90px;
             border-radius: 50%;
-            box-shadow: 0 0 0 1px #F07524, inset 0 0 0 3px $bg;
+            box-shadow: 0 0 0 1px $ac1, inset 0 0 0 3px $bg;
             img {
                 border-radius: 50%;
                 width: 100%;
             }
             span {
-                background-color: #F07524;
+                background-color: $ac1;
                 display: flex;
                 justify-content: center;
                 align-items: center;
