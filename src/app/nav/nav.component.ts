@@ -12,7 +12,12 @@ export class NavComponent implements OnInit {
   }
 
   addClass(event){
-    console.log(event.target);
+    var x, i;
+    x = document.querySelectorAll("li");
+    console.log(x);
+    for (i = 0; i < x.length; i++) {
+      x[i].classList.remove("active");
+    }
     event.target.classList.toggle("active");
   }
 
