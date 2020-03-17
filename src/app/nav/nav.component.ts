@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DomElementSchemaRegistry } from '@angular/compiler';
 
 @Component({
   selector: 'app-nav',
@@ -9,16 +10,22 @@ export class NavComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    this._initNavigation();
   }
 
-  addClass(event){
-    var x, i;
-    x = document.querySelectorAll("li");
-    console.log(x);
-    for (i = 0; i < x.length; i++) {
-      x[i].classList.remove("active");
-    }
-    event.target.classList.toggle("active");
+  _initNavigation() {
+    let lis = document.querySelectorAll('li');
+    lis.forEach( li => {
+      li.addEventListener('click', (event) => {
+        lis.forEach(li => {
+          li.classList.remove("active");
+        });
+        let currentLi:any = event.currentTarget;
+        currentLi.classList.add("active")
+      });
+    });
   }
+
+
 
 }
