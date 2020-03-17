@@ -1,0 +1,22 @@
+@import "~src/variables.scss";
+
+:host{
+    display: block;
+    .nav{
+        .nav-item{
+            .active{
+                border: none;
+                border-bottom: #dc7013 4px solid;
+            }
+        }
+    }
+    .user-icon {
+        width: 60px;
+        height: 60px;
+        background-size: cover;
+        background-position: center;
+        border-radius: 50%;
+        box-shadow: 0 0 0 1px $ac1, inset 0 0 0 3px #fff;
+    }
+
+}

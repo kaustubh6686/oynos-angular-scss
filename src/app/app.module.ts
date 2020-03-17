@@ -16,6 +16,9 @@ import { StoryListComponent } from './story/list/story-list.component';
 import { StoryListItemComponent } from './story/list-item/story-list-item.component';
 import { AplozSocialItemComponent } from './aploz-social/aploz-social-item/aploz-social-item.component';
 import { AplozSocialListComponent } from './aploz-social/aploz-social-list/aploz-social-list.component';
+import { AplozExchangeComponent } from './aploz-exchange/aploz-exchange.component';
+import { SendAplozComponent } from './send-aploz/send-aploz.component';
+import { AplozDetailsComponent } from './aploz-details/aploz-details.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +36,9 @@ import { AplozSocialListComponent } from './aploz-social/aploz-social-list/aploz
     StoryListItemComponent,
     AplozSocialItemComponent,
     AplozSocialListComponent,
+    AplozExchangeComponent,
+    SendAplozComponent,
+    AplozDetailsComponent,
   ],
   imports: [
     BrowserModule,
