@@ -14,6 +14,7 @@ import { MyScoreComponentComponent } from './my-score-component/my-score-compone
 import { ClassCardComponent } from './class-card/class-card.component';
 import { StoryListComponent } from './story/list/story-list.component';
 import { StoryListItemComponent } from './story/list-item/story-list-item.component';
+import { AplozSocialItemComponent } from './aploz-social-item/aploz-social-item.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { StoryListItemComponent } from './story/list-item/story-list-item.compon
     ClassCardComponent,
     StoryListComponent,
     StoryListItemComponent,
+    AplozSocialItemComponent,
   ],
   imports: [
     BrowserModule,
