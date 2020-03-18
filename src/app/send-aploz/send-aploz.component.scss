@@ -1,6 +1,55 @@
 :host{
-    border: 1px solid black;
+    border: 1px solid rgba(0,0,0,0.3);
     display: block;
     padding: 15px;
+}
+
+.stepper {
+    display: flex;
+    flex-wrap: wrap;
+    .step {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        max-width: 12.5em;
+        margin-bottom: 10px;
+        button {
+            background-color: transparent;
+            border: none;
+            display: flex;
+            align-items: center;
+            padding-left: 0;
+            &:hover {
+                background-color: rgba(0,0,0,0.1);
+            }
+            .circle {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #fff;
+                width: 1.5em;
+                height: 1.5em;
+                border-radius: 50%;
+                background-color: blue;
+                margin-right: 0.5em;
+                font-size: 0.9em;
+            }
+        }
+        .line {
+            flex-grow: 1;
+            display: block;
+            height: 2px;
+            background-color: rgba(0,0,0,0.1);
+            margin-right: 0.5em;
+        }
+        .addon {
+            width: 100%;
+            padding-left: 1.8em;
+            small {
+                margin-top: 0.3em
+            }
+        }
+    }
 }
 
