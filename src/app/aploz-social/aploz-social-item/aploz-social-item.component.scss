@@ -1,8 +1,19 @@
 :host{
-    .container-fluid{
-        border: 1px solid black;
-        border-radius: 5px;
-        .user-profile {
+    width: 100%;
+    display: block;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 5px;
+    padding: 15px;
+    svg {
+        width: 15px;
+        fill: black;
+    }
+    .user-details { 
+        .name {
+            line-height: 1em;
+        }
+        
+        .image {
             position: relative;
             background-size: cover;
             background-position: center;
@@ -12,9 +23,11 @@
             min-width: 40px;
             height: 40px;
         }
-        svg {
-            width: 28px;
-            fill: black;
+    }
+    .separator {
+        small {
+            font-size: 0.7em;
+            line-height: 1.1em;
         }
     }
 }
